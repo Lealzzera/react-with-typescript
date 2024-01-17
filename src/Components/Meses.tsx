@@ -3,10 +3,11 @@ import MesBtn from "./MesBtn";
 
 const Meses = () => {
 	return (
-		<div>
-			<MesBtn />
-			<MesBtn />
-			<MesBtn />
+		<div className='flex'>
+			<MesBtn n={0} />
+			<MesBtn n={1} />
+			<MesBtn n={2} />
+			<MesBtn n={3} />
 		</div>
 	);
 };
