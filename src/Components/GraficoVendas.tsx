@@ -8,39 +8,6 @@ import {
 } from "recharts";
 import { IVenda } from "../Context/DataContext";
 
-const dadosGrafico = [
-	{
-		data: "2023-01-06",
-		pago: 30,
-		processando: 300,
-		falha: 200,
-	},
-	{
-		data: "2023-01-07",
-		pago: 50,
-		processando: 4,
-		falha: 1000,
-	},
-	{
-		data: "2023-01-08",
-		pago: 500,
-		processando: 40,
-		falha: 10,
-	},
-	{
-		data: "2023-01-09",
-		pago: 5000,
-		processando: 400,
-		falha: 10,
-	},
-	{
-		data: "2023-01-10",
-		pago: 5000,
-		processando: 8000,
-		falha: 1070,
-	},
-];
-
 type VendaDia = {
 	data: string;
 	pago: number;
