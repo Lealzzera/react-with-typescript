@@ -17,7 +17,6 @@ const Header = () => {
 		}
 	}, [location]);
 
-	console.log(location);
 	return (
 		<header className='mb'>
 			<div className='daterange mb'>
